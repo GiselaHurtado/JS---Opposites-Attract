@@ -1,0 +1,27 @@
+{
+  "name": "js---opposites-attract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./src/sass/styles.scss ./public/css/styles.css",
+    "sass-w": "sass --watch ./src/sass/styles.scss ./public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiselaHurtado/JS---Opposites-Attract.git"
+  },
+  "author": "Gisela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiselaHurtado/JS---Opposites-Attract/issues"
+  },
+  "homepage": "https://github.com/GiselaHurtado/JS---Opposites-Attract#readme",
+  "dependencies": {
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}
